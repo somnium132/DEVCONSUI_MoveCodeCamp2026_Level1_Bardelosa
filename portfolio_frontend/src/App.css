@@ -12,7 +12,7 @@ body {
 
 /* ================= HERO ================= */
 .hero-wrapper {
-  background: linear-gradient(to bottom, #020617, #3692FE, #ffffff);
+  background: linear-gradient(to bottom, #020617, #ec4899, #ffffff);
   padding: 100px 20px;
 }
 
@@ -20,19 +20,19 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px;
-  background: linear-gradient(to bottom, #020617, #0b1b3a);
+  background: linear-gradient(to bottom, #020617, #2d1b2a);
   border-radius: 28px;
   display: flex;
   align-items: center;
   gap: 40px;
-  border: 2px solid #4897EF;
+  border: 2px solid #f472b6;
   position: relative;
 }
 
 .degree {
   font-weight: 700;
   font-size: 20px;
-  color: #93c5fd;
+  color: #fbcfe8;
 }
 
 .avatar {
@@ -41,7 +41,7 @@ body {
   border-radius: 50%;
   background: #fff;
   padding: 6px;
-  box-shadow: 0 0 40px rgba(59,130,246,.8);
+  box-shadow: 0 0 40px rgba(236,72,153,.8);
   flex-shrink: 0;
   overflow: hidden;
 }
@@ -73,7 +73,7 @@ body {
   font-size: 64px !important;
   font-weight: 800;
   line-height: 1.1;
-  background: linear-gradient(90deg, #ffffff, #3692FE);
+  background: linear-gradient(90deg, #ffffff, #ec4899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -85,7 +85,7 @@ body {
 }
 
 .hero-content p {
-  color: #93c5fd;
+  color: #fbcfe8;
   margin-bottom: 20px;
   font-size: 20px;
 }
@@ -102,15 +102,15 @@ body {
   gap: 8px;
   padding: 10px 18px;
   border-radius: 12px;
-  background: #0b1b3a;
-  color: #93c5fd;
+  background: #2d1b2a;
+  color: #fbcfe8;
   text-decoration: none;
-  border: 1px solid #1e40af;
+  border: 1px solid #be185d;
   transition: .3s;
 }
 
 .socials a:hover {
-  background: #1e40af;
+  background: #be185d;
   color: #fff;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .solid-section h2 {
-  color: #60a5fa;
+  color: #f472b6;
   margin-bottom: 20px;
   font-size: 2rem;
   position: relative;
@@ -137,7 +137,7 @@ body {
   height: 6px;
   border-radius: 12px;
   margin-top: 10px;
-  background: linear-gradient(to right, #3692FE, #0C1422);
+  background: linear-gradient(to right, #ec4899, #0C1422);
 }
 
 .solid-section p {
@@ -159,36 +159,36 @@ body {
 .skill {
   padding: 15px 25px;
   border-radius: 14px;
-  border: 1px solid #1e40af;
+  border: 1px solid #be185d;
   background: #0C1422;
-  color: #93c5fd;
+  color: #fbcfe8;
   transition: .3s;
   cursor: pointer;
   font-size: 16px;
 }
 
 .skill:hover {
-  background: #1e40af;
+  background: #be185d;
   color: white;
   transform: translateY(-3px);
 }
 
 /* ================= MOVE SMART CONTRACTS ================= */
 .move-wrapper {
-  background: linear-gradient(to bottom, #020617, #3692FE, #ffffff);
+  background: linear-gradient(to bottom, #020617, #ec4899, #ffffff);
   padding: 80px 20px 40px;
 }
 
 .move-card {
   max-width: 1100px;
   margin: 0 auto;
-  background: linear-gradient(145deg, #020617, #0b1b3a);
+  background: linear-gradient(145deg, #020617, #2d1b2a);
   padding: 40px;
   border-radius: 26px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid #4897EF;
+  border: 2px solid #f472b6;
 }
 
 .move-title {
@@ -205,7 +205,7 @@ body {
 }
 
 .move-title strong {
-  background: linear-gradient(90deg, #ffffff, #3692FE);
+  background: linear-gradient(90deg, #ffffff, #ec4899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -224,9 +224,9 @@ body {
   width: fit-content;
   padding: 12px 20px;
   border-radius: 14px;
-  border: 1px solid #1e40af;
+  border: 1px solid #be185d;
   background: transparent;
-  color: #60a5fa;
+  color: #f472b6;
   cursor: pointer;
   transition: .3s;
   font-size: 16px;
@@ -235,7 +235,7 @@ body {
 }
 
 .learn-more-btn:hover {
-  background: #1e40af;
+  background: #be185d;
   color: #fff;
   text-decoration: none;
 }
@@ -318,7 +318,7 @@ body {
 
 .header-logo h1 {
   font-size: 1.5rem;
-  background: linear-gradient(90deg, #ffffff, #3692FE);
+  background: linear-gradient(90deg, #ffffff, #ec4899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
