@@ -66,9 +66,9 @@ const useMetaTags = (metadata: {
 // PORTFOLIO DATA CONFIGURATION
 // ============================================================================
 const defaultPortfolioData = {
-  name: "LADY DIANE BAUZON CASILANG",
+  name: "KIER BARDELOSA",
   course: "BS in Information Technology",
-  school: "FEU Institute of Technology",
+  school: "Polytechnic University of the Philippines - Santa Rosa Campus",
   about: "I am a fourth-year IT student and freelance designer who integrates technical troubleshooting with creative insight to deliver innovative, efficient solutions.",
   skills: [
     "Graphic Design",
@@ -177,7 +177,7 @@ const PortfolioView = () => {
             const fields = result.result.data.content.fields;
            
             const newPortfolioData = {
-              name: fields.name || defaultPortfolioData.name,
+              name: fields.name === "KIER" ? "KIER BARDELOSA" : (fields.name || defaultPortfolioData.name),
               course: fields.course || defaultPortfolioData.course,
               school: fields.school || defaultPortfolioData.school,
               about: fields.about || defaultPortfolioData.about,
