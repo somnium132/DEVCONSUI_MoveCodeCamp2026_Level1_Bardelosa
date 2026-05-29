@@ -1,4 +1,5 @@
 {
   "buildCommand": "npm run build --prefix portfolio_frontend",
-  "outputDirectory": "portfolio_frontend/dist"
+  "outputDirectory": "portfolio_frontend/dist",
+  "installCommand": "npm install --prefix portfolio_frontend"
 }
