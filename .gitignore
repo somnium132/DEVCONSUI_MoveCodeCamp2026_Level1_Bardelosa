@@ -6,3 +6,4 @@ build/
 
 # Windows metadata files
 *:Zone.Identifier
+.vercel

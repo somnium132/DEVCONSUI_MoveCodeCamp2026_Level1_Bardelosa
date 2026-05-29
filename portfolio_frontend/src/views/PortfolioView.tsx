@@ -378,8 +378,8 @@ const PortfolioView = () => {
           padding: '8px'
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.border = '2px solid #ec4899';
-          e.currentTarget.style.backgroundColor = 'rgba(236, 72, 153, 0.1)';
+          e.currentTarget.style.border = '2px solid #f97316';
+          e.currentTarget.style.backgroundColor = 'rgba(249, 115, 22, 0.1)';
           e.currentTarget.style.transform = 'scale(1.05)';
         }}
         onMouseLeave={(e) => {
@@ -409,8 +409,8 @@ const PortfolioView = () => {
           padding: '8px'
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.border = '2px solid #ec4899';
-          e.currentTarget.style.backgroundColor = 'rgba(236, 72, 153, 0.1)';
+          e.currentTarget.style.border = '2px solid #f97316';
+          e.currentTarget.style.backgroundColor = 'rgba(249, 115, 22, 0.1)';
           e.currentTarget.style.transform = 'scale(1.05)';
         }}
         onMouseLeave={(e) => {
@@ -466,32 +466,32 @@ const PortfolioView = () => {
             target="_blank" 
             rel="noopener noreferrer"
             style={{
-              color: '#f472b6',
+              color: '#fb923c',
               textDecoration: 'none',
               display: 'inline-flex',
               alignItems: 'center',
               gap: '0.6rem',
               padding: '0.5rem 1rem',
               borderRadius: '6px',
-              border: '1px solid rgba(236, 72, 153, 0.3)',
-              backgroundColor: 'rgba(236, 72, 153, 0.05)',
+              border: '1px solid rgba(249, 115, 22, 0.3)',
+              backgroundColor: 'rgba(249, 115, 22, 0.05)',
               fontSize: '0.9rem',
               fontWeight: 500,
               transition: 'all 0.2s ease'
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = 'rgba(236, 72, 153, 0.1)';
-              e.currentTarget.style.borderColor = '#f472b6';
+              e.currentTarget.style.backgroundColor = 'rgba(249, 115, 22, 0.1)';
+              e.currentTarget.style.borderColor = '#fb923c';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = 'rgba(236, 72, 153, 0.05)';
-              e.currentTarget.style.borderColor = 'rgba(236, 72, 153, 0.3)';
+              e.currentTarget.style.backgroundColor = 'rgba(249, 115, 22, 0.05)';
+              e.currentTarget.style.borderColor = 'rgba(249, 115, 22, 0.3)';
             }}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#f472b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M2 17L12 22L22 17" stroke="#f472b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M2 12L12 17L22 12" stroke="#f472b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#fb923c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M2 17L12 22L22 17" stroke="#fb923c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M2 12L12 17L22 12" stroke="#fb923c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             Verify on Blockchain
           </a>
